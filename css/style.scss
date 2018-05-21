@@ -1,0 +1,258 @@
+$font-color:#474954;
+$base-color:#f5f5f5;
+$main-color:#7CDEDC;
+$accent-color:#FFA69E;
+
+$content-margin:50px;
+
+html,body{
+  margin: 0;
+  padding: 0;
+  color: $font-color;
+  font-size: 13px;
+  font-family: 'メイリオ', Meiryo,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', sans-serif;
+}
+body{
+  background-color: #fff;
+}
+h2{
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+   height: auto;
+   
+ h1{     
+   widows: 100%;
+   height: 100px;
+   background-color: $base-color;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   
+   
+   img{
+     width: 100%;
+     max-width: 300px;
+     margin: 20px 0 0 0;
+     }
+     
+     .description{
+       //position: absolute;
+       display: block;
+       //float: right;
+       font-size: 8px;
+       font-weight: normal;
+       margin: 0 0 0 0;
+       //top: 0;
+       //left: 0;
+     }
+   }
+   
+    
+ }
+ 
+
+ 
+ nav{
+   position: absolute;
+   right: 10px;
+   top: 30px;
+   $nav-li-width:140px;
+    $nav-height:40px;
+    
+    width: ($nav-li-width + 1px) * 2 + 1px;
+    height: $nav-height;
+    background-color: $base-color;
+    font-size: 13px;
+    padding: 0;
+    
+    ul{
+      display: block;
+      width: ($nav-li-width + 1px) * 2 + 1px;
+      height: $nav-height;
+      margin:0 auto;
+      padding: 0;
+      
+      li{
+        width: $nav-li-width;
+        height: $nav-height;
+        display: block;
+        float: left;
+        text-align: center;
+        border-left: 1px dashed $main-color; 
+        padding: 0;
+        margin: 0;
+        
+        a{
+          height: $nav-height;
+          line-height: $nav-height;
+          vertical-align: middle;
+          margin: 0;
+          padding: 0;
+          color: $font-color;
+        }
+      }
+      .li-last{
+        border-right: 1px dashed $main-color;
+      }
+  }
+}
+
+.content{
+  margin: 0 0 $content-margin 0;
+}
+
+
+.feature{
+  height: auto;
+  padding: 0 0 15px 0;
+  
+  .slider{
+    display: block;
+    width:100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+    .feature-item{
+      width: auto;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      
+      img{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.aboutMe{
+  width: 100%;
+  height: auto;
+  
+  img{
+    width: 70%;
+    max-width: 1000px;
+  }
+  
+  .aboutMe-sec{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: #ebf6f7;
+    img{
+      width: 95%;
+      padding: 0;
+      margin: 15px 10px 10px 5px;
+    }
+    
+  } 
+}
+
+.pickup-item{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  
+  img{
+    width: 78%;
+    max-width: 1000px;
+  }
+  
+  .pickup-item-container{
+    $pickup-item-width:150px;
+    $pickup-item-margin:10px;
+    text-align: left;
+    clear: both;
+    height: auto;
+    width: 100%;
+    
+    h3{
+      margin: 15px auto 10px auto;
+      padding: 0;
+      width: 80%;
+      clear: both;
+      font-size: 13px;
+      display: block;
+    }
+    ul{
+      clear: both;
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      height: 150px;
+      padding: 0;
+      li{
+        width: 15%;
+        padding: 0;
+        margin: 0 8px;
+        display: block;
+        list-style-type: none;
+        float: left;
+        
+        img{
+          width: 100%;
+          height: 100%;
+        }
+        
+        &:hover{
+          opacity: 0.5;
+        }
+      }
+      
+    }
+  }
+ 
+}
+
+footer{
+  //margin: 30px 0 0 0;
+  background-color: $base-color;
+  clear: both;
+  margin: 100px 0 0 0;
+  width: 100%;
+  height: 50px;
+  
+  .copyright-wrapper{
+    width: 100%;
+    height: 30px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    
+    .copyright{
+      font-size: 11px;
+      opacity: 0.5;
+        line-height: 30px;
+        vertical-align: middle;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      
+      p{
+        width: auto;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
