@@ -4,9 +4,7 @@ html, body {
   padding: 0;
   color: #474954;
   font-size: 13px;
-  font-family: 'メイリオ', Meiryo,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', sans-serif; }
-
-html {
+  font-family: 'メイリオ', Meiryo,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', sans-serif;
   overflow-x: hidden; }
 
 body {
