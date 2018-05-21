@@ -6,8 +6,15 @@ html, body {
   font-size: 13px;
   font-family: 'メイリオ', Meiryo,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', sans-serif; }
 
+html {
+  overflow-x: hidden; }
+
 body {
   background-color: #fff; }
+
+img {
+  margin: 0;
+  padding: 0; }
 
 h2 {
   font-size: 13px;
